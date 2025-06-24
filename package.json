@@ -1,0 +1,30 @@
+{
+  "name": "id-verifier-teams-app",
+  "version": "1.0.0",
+  "description": "Microsoft Teams App to capture and verify government ID",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "vite",
+    "dev:teamsfx": "npm run dev",
+    "build": "vite build",
+    "start:api": "node api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@azure-rest/ai-vision-face": "^1.0.0-beta.3",
+    "@azure/ai-form-recognizer": "^5.1.0",
+    "@azure/cognitiveservices-face": "^5.0.0",
+    "@azure/identity": "^4.10.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "multer": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-webcam": "^7.0.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
