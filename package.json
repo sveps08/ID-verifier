@@ -15,6 +15,7 @@
     "@azure/ai-form-recognizer": "^5.1.0",
     "@azure/cognitiveservices-face": "^5.0.0",
     "@azure/identity": "^4.10.1",
+    "axios": "^1.10.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
